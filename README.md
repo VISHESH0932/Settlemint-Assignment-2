@@ -1,4 +1,4 @@
-# Algorithms for Counting "Lights On" Events / Merged Interval Components
+# Algorithm for Counting "Lights On" Events / Merged Interval Components
 
 This document describes two efficient algorithms to solve the problem of determining how many times a "lights on" event occurs, given a set of time intervals representing when individuals are present. This is equivalent to counting the number of connected components in the union of these time intervals.
 
