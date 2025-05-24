@@ -29,7 +29,7 @@ Maintain two integer counters:
 
 Scan the sorted events in increasing order of time:
 
-```text
+
 for each event e in time-order:
   if e is an Entry event (+1):
     if occupancy == 0:  // Facility was empty before this person entered
@@ -37,7 +37,7 @@ for each event e in time-order:
     occupancy = occupancy + 1
   else if e is an Exit event (-1):
     occupancy = occupancy - 1
-    // No action on 'switches' when someone exits
+ 
 
 
 ### Result of Sweep Process
